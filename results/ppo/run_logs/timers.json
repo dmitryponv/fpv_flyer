@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1732761546",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Unity\\Projects\\FPV_Flight\\venv\\Scripts\\mlagents-learn --force",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1732761555"
+    },
+    "total": 8.717178300023079,
+    "count": 1,
+    "self": 0.002262899884954095,
+    "children": {
+        "run_training.setup": {
+            "total": 0.019347700057551265,
+            "count": 1,
+            "self": 0.019347700057551265
+        },
+        "TrainerController.start_learning": {
+            "total": 8.695567700080574,
+            "count": 1,
+            "self": 7.559999357908964e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.695477100089192,
+                    "count": 1,
+                    "self": 8.695477100089192
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4999997802078724e-05,
+                    "count": 1,
+                    "self": 1.4999997802078724e-05
+                }
+            }
+        }
+    }
+}
